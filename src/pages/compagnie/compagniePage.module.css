@@ -1,0 +1,41 @@
+.section {
+	width: 90vw;
+	margin-left: 13em;
+}
+.link {
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+	position: relative;
+	top: 15em;
+}
+.button {
+	border: solid white;
+	text-decoration: none;
+	color: white;
+	padding: 1.2em;
+	width: 7em;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background: linear-gradient(
+			to top,
+			rgb(255, 255, 255) 0%,
+			rgb(255, 255, 255) 100%
+		)
+		no-repeat;
+	background-size: 0 0%;
+	transition: background-size .4s;
+}
+.button:hover {
+	background-size: 100% 100%;
+	color: black;
+	font-weight: bold;
+}
+.h2 {
+	text-align: right;
+	margin-right: 12em;
+	margin-top: 4em;
+	font-size: 2em;
+	color: white;
+}

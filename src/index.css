@@ -1,0 +1,11 @@
+@font-face {
+	font-family: "Arvo";
+	src: url(../public/font/Arvo\,Hind/);
+}
+
+:root {
+	--primary-font: "Arvo" sans-serif;
+}
+body {
+	background-color: rgb(27, 26, 26);
+}

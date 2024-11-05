@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.menu_nav {
+	display: flex;
+	gap: 4em;
+	font-size: 1.4em;
+	text-decoration: none;
+	margin-right: 12em;
+}
+.logo {
+	width: 12em;
+	height: auto;
+}
+.nav_style {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2em;
+}
+.button {
+	text-transform: uppercase;
+	padding-bottom: 0.2em;
+	color: white;
+	text-decoration: none;
+	background: linear-gradient(to top, white 0%, white 2px, transparent 5px)
+		no-repeat;
+	background-size: 0 100%;
+	transition: background-size .3s;
+}
+.button:hover {
+	background-size: 100% 100%;
+}
