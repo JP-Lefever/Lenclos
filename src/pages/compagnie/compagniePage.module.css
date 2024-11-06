@@ -1,6 +1,14 @@
 .section {
-	width: 90vw;
-	margin-left: 13em;
+	width: 70vw;
+	margin-left: 12em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 20em;
+	margin-top: 8em;
+}
+.affichage {
+	width: 60vw;
 }
 .link {
 	display: flex;
@@ -8,6 +16,7 @@
 	gap: 3em;
 	position: relative;
 	top: 15em;
+	height: fit-content;
 }
 .button {
 	border: solid white;

@@ -12,3 +12,12 @@ export type equipeProps = {
 	description: string;
 	name: string;
 };
+
+export type creationDataProps = {
+	id: number;
+	lieu: string;
+	création: string;
+	title: string;
+	auteur: string;
+	image: string;
+};

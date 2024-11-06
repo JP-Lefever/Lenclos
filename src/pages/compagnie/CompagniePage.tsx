@@ -5,19 +5,19 @@ import style from "./compagniePage.module.css";
 function Compagnie() {
 	return (
 		<>
+			<h2 className={style.h2}>LA COMPAGNIE</h2>
 			<section className={style.section}>
-				<h2 className={style.h2}>LA COMPAGNIE</h2>
-				<section className={style.link}>
+				<aside className={style.link}>
 					<Link className={style.button} to="/compagnie/histoire">
 						L'histoire
 					</Link>
 					<Link className={style.button} to="/compagnie/Equipe">
 						L'équipe
 					</Link>
-				</section>
-				<div>
+				</aside>
+				<article className={style.affichage}>
 					<Outlet />
-				</div>
+				</article>
 			</section>
 		</>
 	);

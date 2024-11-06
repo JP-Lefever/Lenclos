@@ -4,7 +4,6 @@ import { useState } from "react";
 
 function Cards({ title, image, name, description }: equipeProps) {
 	const [moreInfo, setMoreInfo] = useState(false);
-	console.log(moreInfo);
 	const handleClick = () => {
 		moreInfo ? setMoreInfo(false) : setMoreInfo(true);
 	};
@@ -18,8 +17,8 @@ function Cards({ title, image, name, description }: equipeProps) {
 					<button className={style.button} onClick={handleClick}>
 						+
 					</button>
+					<p className={style.text}>{title}</p>
 				</div>
-				<p className={style.text}>{title}</p>
 				{moreInfo && <div className={style.addInfo}>{description}</div>}
 			</section>
 		</>

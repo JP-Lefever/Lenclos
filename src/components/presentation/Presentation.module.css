@@ -1,15 +1,10 @@
 .section {
 	border: solid 1px black;
-	width: 50vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: auto;
 	background-color: white;
-	position: relative;
-	bottom: 3em;
-	margin-left: 24em;
 }
 .text {
 	font-size: 1.3em;

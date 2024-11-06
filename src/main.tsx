@@ -27,6 +27,7 @@ const router = createBrowserRouter([
 			{
 				path: "/compagnie",
 				element: <Compagnie />,
+
 				children: [
 					{
 						path: "/compagnie/histoire",

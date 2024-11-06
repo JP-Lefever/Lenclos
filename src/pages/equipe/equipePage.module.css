@@ -1,12 +1,5 @@
 .cards {
-	width: 60vw;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	gap: 3em;
-	flex-wrap: wrap;
-	margin: auto;
-	justify-content: center;
-	position: relative;
-	bottom: 3em;
-	padding-left: 8em;
+	gap: 2em;
 }
